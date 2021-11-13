@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DF18BA0273FF9A800315CEC /* snooker_palApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF18B9F273FF9A800315CEC /* snooker_palApp.swift */; };
+		2DF18BA2273FF9A800315CEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF18BA1273FF9A800315CEC /* ContentView.swift */; };
+		2DF18BA4273FF9A800315CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF18BA3273FF9A800315CEC /* Assets.xcassets */; };
+		2DF18BA7273FF9A800315CEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF18BA6273FF9A800315CEC /* Preview Assets.xcassets */; };
+		2DF18BA9273FF9A800315CEC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF18BA8273FF9A800315CEC /* Persistence.swift */; };
+		2DF18BAC273FF9A800315CEC /* snooker_pal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DF18BAA273FF9A800315CEC /* snooker_pal.xcdatamodeld */; };
+		2DF18BB6273FF9A800315CEC /* snooker_palTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF18BB5273FF9A800315CEC /* snooker_palTests.swift */; };
+		2DF18BC0273FF9A800315CEC /* snooker_palUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF18BBF273FF9A800315CEC /* snooker_palUITests.swift */; };
+		2DF18BC2273FF9A800315CEC /* snooker_palUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF18BC1273FF9A800315CEC /* snooker_palUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DF18BB2273FF9A800315CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DF18B94273FF9A700315CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DF18B9B273FF9A800315CEC;
+			remoteInfo = "snooker-pal";
+		};
+		2DF18BBC273FF9A800315CEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DF18B94273FF9A700315CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DF18B9B273FF9A800315CEC;
+			remoteInfo = "snooker-pal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DF18B9C273FF9A800315CEC /* snooker-pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snooker-pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF18B9F273FF9A800315CEC /* snooker_palApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_palApp.swift; sourceTree = "<group>"; };
+		2DF18BA1273FF9A800315CEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2DF18BA3273FF9A800315CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DF18BA6273FF9A800315CEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DF18BA8273FF9A800315CEC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2DF18BAB273FF9A800315CEC /* snooker_pal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = snooker_pal.xcdatamodel; sourceTree = "<group>"; };
+		2DF18BB1273FF9A800315CEC /* snooker-palTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snooker-palTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF18BB5273FF9A800315CEC /* snooker_palTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_palTests.swift; sourceTree = "<group>"; };
+		2DF18BBB273FF9A800315CEC /* snooker-palUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snooker-palUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF18BBF273FF9A800315CEC /* snooker_palUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_palUITests.swift; sourceTree = "<group>"; };
+		2DF18BC1273FF9A800315CEC /* snooker_palUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snooker_palUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DF18B99273FF9A800315CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF18BAE273FF9A800315CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF18BB8273FF9A800315CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DF18B93273FF9A700315CEC = {
+			isa = PBXGroup;
+			children = (
+				2DF18B9E273FF9A800315CEC /* snooker-pal */,
+				2DF18BB4273FF9A800315CEC /* snooker-palTests */,
+				2DF18BBE273FF9A800315CEC /* snooker-palUITests */,
+				2DF18B9D273FF9A800315CEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DF18B9D273FF9A800315CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DF18B9C273FF9A800315CEC /* snooker-pal.app */,
+				2DF18BB1273FF9A800315CEC /* snooker-palTests.xctest */,
+				2DF18BBB273FF9A800315CEC /* snooker-palUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DF18B9E273FF9A800315CEC /* snooker-pal */ = {
+			isa = PBXGroup;
+			children = (
+				2DF18B9F273FF9A800315CEC /* snooker_palApp.swift */,
+				2DF18BA1273FF9A800315CEC /* ContentView.swift */,
+				2DF18BA3273FF9A800315CEC /* Assets.xcassets */,
+				2DF18BA8273FF9A800315CEC /* Persistence.swift */,
+				2DF18BAA273FF9A800315CEC /* snooker_pal.xcdatamodeld */,
+				2DF18BA5273FF9A800315CEC /* Preview Content */,
+			);
+			path = "snooker-pal";
+			sourceTree = "<group>";
+		};
+		2DF18BA5273FF9A800315CEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2DF18BA6273FF9A800315CEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DF18BB4273FF9A800315CEC /* snooker-palTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DF18BB5273FF9A800315CEC /* snooker_palTests.swift */,
+			);
+			path = "snooker-palTests";
+			sourceTree = "<group>";
+		};
+		2DF18BBE273FF9A800315CEC /* snooker-palUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DF18BBF273FF9A800315CEC /* snooker_palUITests.swift */,
+				2DF18BC1273FF9A800315CEC /* snooker_palUITestsLaunchTests.swift */,
+			);
+			path = "snooker-palUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DF18B9B273FF9A800315CEC /* snooker-pal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF18BC5273FF9A800315CEC /* Build configuration list for PBXNativeTarget "snooker-pal" */;
+			buildPhases = (
+				2DF18B98273FF9A800315CEC /* Sources */,
+				2DF18B99273FF9A800315CEC /* Frameworks */,
+				2DF18B9A273FF9A800315CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "snooker-pal";
+			productName = "snooker-pal";
+			productReference = 2DF18B9C273FF9A800315CEC /* snooker-pal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DF18BB0273FF9A800315CEC /* snooker-palTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF18BC8273FF9A800315CEC /* Build configuration list for PBXNativeTarget "snooker-palTests" */;
+			buildPhases = (
+				2DF18BAD273FF9A800315CEC /* Sources */,
+				2DF18BAE273FF9A800315CEC /* Frameworks */,
+				2DF18BAF273FF9A800315CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF18BB3273FF9A800315CEC /* PBXTargetDependency */,
+			);
+			name = "snooker-palTests";
+			productName = "snooker-palTests";
+			productReference = 2DF18BB1273FF9A800315CEC /* snooker-palTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DF18BBA273FF9A800315CEC /* snooker-palUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF18BCB273FF9A800315CEC /* Build configuration list for PBXNativeTarget "snooker-palUITests" */;
+			buildPhases = (
+				2DF18BB7273FF9A800315CEC /* Sources */,
+				2DF18BB8273FF9A800315CEC /* Frameworks */,
+				2DF18BB9273FF9A800315CEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF18BBD273FF9A800315CEC /* PBXTargetDependency */,
+			);
+			name = "snooker-palUITests";
+			productName = "snooker-palUITests";
+			productReference = 2DF18BBB273FF9A800315CEC /* snooker-palUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DF18B94273FF9A700315CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2DF18B9B273FF9A800315CEC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					2DF18BB0273FF9A800315CEC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2DF18B9B273FF9A800315CEC;
+					};
+					2DF18BBA273FF9A800315CEC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2DF18B9B273FF9A800315CEC;
+					};
+				};
+			};
+			buildConfigurationList = 2DF18B97273FF9A700315CEC /* Build configuration list for PBXProject "snooker-pal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DF18B93273FF9A700315CEC;
+			productRefGroup = 2DF18B9D273FF9A800315CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DF18B9B273FF9A800315CEC /* snooker-pal */,
+				2DF18BB0273FF9A800315CEC /* snooker-palTests */,
+				2DF18BBA273FF9A800315CEC /* snooker-palUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DF18B9A273FF9A800315CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF18BA7273FF9A800315CEC /* Preview Assets.xcassets in Resources */,
+				2DF18BA4273FF9A800315CEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF18BAF273FF9A800315CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF18BB9273FF9A800315CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DF18B98273FF9A800315CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF18BA9273FF9A800315CEC /* Persistence.swift in Sources */,
+				2DF18BAC273FF9A800315CEC /* snooker_pal.xcdatamodeld in Sources */,
+				2DF18BA2273FF9A800315CEC /* ContentView.swift in Sources */,
+				2DF18BA0273FF9A800315CEC /* snooker_palApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF18BAD273FF9A800315CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF18BB6273FF9A800315CEC /* snooker_palTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF18BB7273FF9A800315CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF18BC2273FF9A800315CEC /* snooker_palUITestsLaunchTests.swift in Sources */,
+				2DF18BC0273FF9A800315CEC /* snooker_palUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DF18BB3273FF9A800315CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DF18B9B273FF9A800315CEC /* snooker-pal */;
+			targetProxy = 2DF18BB2273FF9A800315CEC /* PBXContainerItemProxy */;
+		};
+		2DF18BBD273FF9A800315CEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DF18B9B273FF9A800315CEC /* snooker-pal */;
+			targetProxy = 2DF18BBC273FF9A800315CEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DF18BC3273FF9A800315CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DF18BC4273FF9A800315CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DF18BC6273FF9A800315CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"snooker-pal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.snooker.pal.snooker-pal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DF18BC7273FF9A800315CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"snooker-pal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.snooker.pal.snooker-pal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DF18BC9273FF9A800315CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.snooker.pal.snooker-palTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snooker-pal.app/snooker-pal";
+			};
+			name = Debug;
+		};
+		2DF18BCA273FF9A800315CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.snooker.pal.snooker-palTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snooker-pal.app/snooker-pal";
+			};
+			name = Release;
+		};
+		2DF18BCC273FF9A800315CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.snooker.pal.snooker-palUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "snooker-pal";
+			};
+			name = Debug;
+		};
+		2DF18BCD273FF9A800315CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.snooker.pal.snooker-palUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "snooker-pal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DF18B97273FF9A700315CEC /* Build configuration list for PBXProject "snooker-pal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF18BC3273FF9A800315CEC /* Debug */,
+				2DF18BC4273FF9A800315CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF18BC5273FF9A800315CEC /* Build configuration list for PBXNativeTarget "snooker-pal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF18BC6273FF9A800315CEC /* Debug */,
+				2DF18BC7273FF9A800315CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF18BC8273FF9A800315CEC /* Build configuration list for PBXNativeTarget "snooker-palTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF18BC9273FF9A800315CEC /* Debug */,
+				2DF18BCA273FF9A800315CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF18BCB273FF9A800315CEC /* Build configuration list for PBXNativeTarget "snooker-palUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF18BCC273FF9A800315CEC /* Debug */,
+				2DF18BCD273FF9A800315CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DF18BAA273FF9A800315CEC /* snooker_pal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DF18BAB273FF9A800315CEC /* snooker_pal.xcdatamodel */,
+			);
+			currentVersion = 2DF18BAB273FF9A800315CEC /* snooker_pal.xcdatamodel */;
+			path = snooker_pal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2DF18B94273FF9A700315CEC /* Project object */;
+}
